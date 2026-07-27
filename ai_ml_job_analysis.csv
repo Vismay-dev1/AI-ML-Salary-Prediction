@@ -1,0 +1,501 @@
+ID,Job Title,Experience (Years),Education,Skill Count,Industry,Company,Location,Remote Work,Certification,Salary (USD)
+1,Research Intern,2.2,PhD,10,Technology,Infosys,"Toronto, Canada",Yes,Azure AI Engineer,35800
+2,Machine Learning Engineer,11.8,Bachelors,3,Finance,Wipro,"Mumbai, India",Hybrid,TensorFlow Developer,34400
+3,AI Consultant,13.0,Masters,16,Technology,Cognizant,"London, UK",No,IBM Data Science Cert,143200
+4,Applied Scientist,3.2,Bachelors,13,Automotive,Infosys,"Mumbai, India",No,None,24700
+5,NLP Engineer,16.9,Masters,11,Healthcare,Cognizant,"Seattle, USA",Yes,Microsoft Certified: Azure Data Scientist,170200
+6,AI Product Manager,5.9,Masters,14,Entertainment,Wipro,"Toronto, Canada",Yes,None,111900
+7,Deep Learning Engineer,19.7,Masters,6,Manufacturing,Deloitte,"New York, USA",Hybrid,IBM Data Science Cert,175600
+8,NLP Engineer,4.2,PhD,25,Finance,SAP,"Berlin, Germany",Yes,TensorFlow Developer,118000
+9,MLOps Engineer,7.6,Masters,10,Education,Microsoft,"Mumbai, India",Yes,IBM Data Science Cert,33600
+10,Machine Learning Engineer,4.2,Masters,25,Education,Wipro,"Berlin, Germany",No,AWS ML Specialty,109900
+11,MLOps Engineer,2.9,Masters,10,Government,Adobe,"Delhi, India",Hybrid,TensorFlow Developer,30800
+12,Computer Vision Engineer,7.2,Masters,19,Telecommunications,Amazon,Singapore,Yes,IBM Data Science Cert,109500
+13,AI Research Scientist,15.8,Bachelors,22,Finance,Startup Inc,"San Francisco, USA",Hybrid,Microsoft Certified: Azure Data Scientist,192800
+14,AI Product Manager,17.2,Bachelors,24,Finance,Adobe,Singapore,No,Deep Learning Specialization,162900
+15,Deep Learning Engineer,8.7,Bachelors,3,Automotive,Capgemini,Singapore,Yes,Google ML Engineer,85300
+16,Research Intern,6.0,Masters,22,Technology,Infosys,"Chennai, India",Yes,TensorFlow Developer,15100
+17,AI Product Manager,18.4,Masters,13,Telecommunications,Google,"Hyderabad, India",No,IBM Data Science Cert,58300
+18,Deep Learning Engineer,4.8,Masters,21,Finance,Amazon,"Toronto, Canada",No,IBM Data Science Cert,108100
+19,AI Product Manager,15.3,Masters,24,Telecommunications,Adobe,"Pune, India",No,Google ML Engineer,56500
+20,Data Analyst,18.6,Masters,25,Automotive,Startup Inc,"Berlin, Germany",Hybrid,AWS ML Specialty,172000
+21,MLOps Engineer,2.4,Masters,5,Education,Google,"London, UK",Hybrid,None,72300
+22,Machine Learning Engineer,14.2,Bachelors,10,Finance,Microsoft,Remote,No,None,87300
+23,Research Intern,9.7,Masters,7,Entertainment,Oracle,"New York, USA",Yes,Deep Learning Specialization,47500
+24,Data Analyst,1.9,Bachelors,14,Manufacturing,DataWorks,"New York, USA",Hybrid,None,87100
+25,Research Intern,2.0,Bachelors,13,Finance,Accenture,"Mumbai, India",Yes,TensorFlow Developer,8000
+26,AI Research Scientist,5.6,Masters,5,Telecommunications,Adobe,"Hyderabad, India",Yes,Azure AI Engineer,36500
+27,Data Scientist,19.4,Masters,8,Manufacturing,HCL Tech,"New York, USA",Yes,IBM Data Science Cert,182900
+28,AI Research Scientist,7.6,Bachelors,11,Telecommunications,Meta,"San Francisco, USA",Hybrid,Microsoft Certified: Azure Data Scientist,138700
+29,AI Product Manager,13.2,Bachelors,7,Technology,Meta,"Mumbai, India",Yes,TensorFlow Developer,42400
+30,AI Consultant,6.3,Bachelors,21,Telecommunications,Capgemini,"Austin, USA",Hybrid,None,138200
+31,Machine Learning Engineer,17.0,Bachelors,22,Finance,Accenture,"San Francisco, USA",Yes,Microsoft Certified: Azure Data Scientist,175300
+32,Data Engineer,11.9,Masters,5,Manufacturing,Oracle,"London, UK",Hybrid,None,113600
+33,Research Intern,14.3,Masters,11,Manufacturing,Infosys,"Berlin, Germany",Hybrid,None,45100
+34,Applied Scientist,18.7,Bachelors,17,Entertainment,Oracle,"Hyderabad, India",Yes,TensorFlow Developer,49600
+35,AI Research Scientist,18.7,Bachelors,10,Education,Meta,"Pune, India",No,IBM Data Science Cert,55100
+36,Data Engineer,19.7,Masters,3,Government,Meta,"Austin, USA",Hybrid,None,177000
+37,Deep Learning Engineer,2.3,Bachelors,20,Retail,Deloitte,"Delhi, India",Hybrid,None,25900
+38,Research Intern,12.7,PhD,19,Telecommunications,Deloitte,"Austin, USA",Yes,None,61400
+39,Deep Learning Engineer,0.9,PhD,7,Automotive,TCS,"Toronto, Canada",No,TensorFlow Developer,83400
+40,Data Scientist,2.2,Masters,20,Healthcare,OpenAI,"London, UK",Hybrid,None,88900
+41,Deep Learning Engineer,7.3,Bachelors,14,Technology,Accenture,"Berlin, Germany",Yes,AWS ML Specialty,96300
+42,Business Intelligence Analyst,8.1,Masters,7,Technology,TCS,Singapore,Yes,IBM Data Science Cert,97700
+43,AI Consultant,18.5,Bachelors,24,Technology,Deloitte,"Pune, India",Hybrid,None,59600
+44,Business Intelligence Analyst,9.4,Masters,17,Education,Meta,Remote,Yes,None,89700
+45,Computer Vision Engineer,6.6,Bachelors,11,Education,Capgemini,"San Francisco, USA",Hybrid,Microsoft Certified: Azure Data Scientist,105900
+46,Data Scientist,2.3,PhD,8,Entertainment,Deloitte,"Bangalore, India",Yes,TensorFlow Developer,29200
+47,Applied Scientist,6.3,Masters,19,Finance,Startup Inc,"Austin, USA",Hybrid,None,124800
+48,Computer Vision Engineer,0.0,Masters,24,Technology,OpenAI,"San Francisco, USA",Yes,Microsoft Certified: Azure Data Scientist,106700
+49,Data Engineer,6.3,Bachelors,12,Government,Meta,"Berlin, Germany",No,None,90600
+50,AI Product Manager,2.5,Bachelors,24,Manufacturing,TCS,"London, UK",Hybrid,None,101100
+51,Data Scientist,6.1,Masters,16,Entertainment,SAP,"Berlin, Germany",No,Google ML Engineer,103400
+52,Data Analyst,10.2,Masters,24,Finance,Meta,"Seattle, USA",Hybrid,Azure AI Engineer,154300
+53,Business Intelligence Analyst,19.0,Masters,24,Automotive,Accenture,Singapore,Yes,None,165700
+54,MLOps Engineer,12.2,Bachelors,17,Manufacturing,Oracle,"Mumbai, India",Hybrid,Azure AI Engineer,40200
+55,Data Analyst,3.0,Bachelors,6,Manufacturing,Accenture,"Pune, India",Hybrid,Google ML Engineer,18900
+56,Data Analyst,18.3,Bachelors,17,Retail,Cognizant,"Berlin, Germany",Hybrid,Microsoft Certified: Azure Data Scientist,147700
+57,Applied Scientist,17.8,Masters,19,Manufacturing,Adobe,"New York, USA",Yes,Deep Learning Specialization,187100
+58,Deep Learning Engineer,15.0,PhD,19,Telecommunications,Accenture,"Delhi, India",No,None,51400
+59,Deep Learning Engineer,6.7,Masters,5,Retail,Infosys,"Mumbai, India",No,Azure AI Engineer,32700
+60,Machine Learning Engineer,8.3,PhD,20,Telecommunications,DataWorks,"Bangalore, India",Yes,IBM Data Science Cert,43000
+61,Applied Scientist,11.7,Bachelors,21,Manufacturing,HCL Tech,"Bangalore, India",No,None,40200
+62,AI Solutions Architect,19.1,Bachelors,20,Government,SAP,"Austin, USA",Yes,Google ML Engineer,204800
+63,MLOps Engineer,0.6,PhD,24,Manufacturing,TCS,Remote,No,Microsoft Certified: Azure Data Scientist,80400
+64,AI Product Manager,0.5,Bachelors,21,Entertainment,Google,"Hyderabad, India",Hybrid,AWS ML Specialty,32400
+65,AI Research Scientist,1.0,Bachelors,13,Technology,Cognizant,"Chennai, India",No,Deep Learning Specialization,28200
+66,Applied Scientist,19.0,Bachelors,11,Finance,HCL Tech,"Bangalore, India",Hybrid,TensorFlow Developer,51600
+67,NLP Engineer,4.5,Bachelors,23,Healthcare,Google,"Mumbai, India",Yes,IBM Data Science Cert,32500
+68,Data Analyst,2.5,Bachelors,21,Technology,Cognizant,"Toronto, Canada",No,Deep Learning Specialization,80900
+69,Data Engineer,19.3,Bachelors,8,Automotive,IBM,"London, UK",Yes,Microsoft Certified: Azure Data Scientist,141000
+70,AI Solutions Architect,19.2,Bachelors,25,Technology,Amazon,"London, UK",Hybrid,IBM Data Science Cert,178800
+71,AI Consultant,15.4,Masters,6,Entertainment,Microsoft,"Chennai, India",Hybrid,AWS ML Specialty,47400
+72,AI Product Manager,13.0,Bachelors,16,Telecommunications,IBM,"San Francisco, USA",No,Azure AI Engineer,164200
+73,AI Consultant,3.1,Masters,19,Automotive,SAP,Singapore,Hybrid,Deep Learning Specialization,107700
+74,Business Intelligence Analyst,14.6,PhD,13,Technology,Amazon,"Delhi, India",No,None,49900
+75,Data Engineer,13.4,PhD,3,Telecommunications,Nvidia,"Pune, India",No,None,46700
+76,NLP Engineer,5.6,Masters,25,Automotive,Adobe,"Bangalore, India",Hybrid,Microsoft Certified: Azure Data Scientist,34200
+77,AI Consultant,8.1,Masters,10,Telecommunications,HCL Tech,"New York, USA",Yes,None,138400
+78,AI Consultant,4.9,Masters,14,Telecommunications,Adobe,"Seattle, USA",No,AWS ML Specialty,132000
+79,NLP Engineer,7.0,Bachelors,11,Automotive,Deloitte,"Mumbai, India",Yes,Deep Learning Specialization,28800
+80,AI Consultant,10.7,Masters,9,Technology,HCL Tech,"Delhi, India",Hybrid,TensorFlow Developer,45000
+81,Data Engineer,5.7,Bachelors,9,Automotive,Accenture,"Chennai, India",Yes,None,29300
+82,AI Research Scientist,5.5,Bachelors,20,Automotive,Infosys,"Berlin, Germany",No,None,111700
+83,Deep Learning Engineer,9.4,Bachelors,13,Retail,Microsoft,"Delhi, India",No,None,31100
+84,MLOps Engineer,1.5,Bachelors,7,Retail,Oracle,"Delhi, India",Yes,Microsoft Certified: Azure Data Scientist,17700
+85,Applied Scientist,8.3,Masters,22,Technology,Capgemini,"San Francisco, USA",No,Microsoft Certified: Azure Data Scientist,141400
+86,Data Engineer,19.8,PhD,21,Entertainment,Microsoft,"London, UK",Hybrid,None,184700
+87,Research Intern,4.2,Bachelors,8,Technology,TCS,"Seattle, USA",Yes,None,30400
+88,AI Consultant,11.9,PhD,4,Technology,Meta,"Toronto, Canada",No,Azure AI Engineer,141000
+89,Research Intern,4.7,PhD,23,Entertainment,Wipro,"San Francisco, USA",Yes,TensorFlow Developer,50900
+90,AI Solutions Architect,5.3,Masters,5,Healthcare,TCS,Singapore,No,TensorFlow Developer,109900
+91,AI Solutions Architect,5.8,Bachelors,17,Automotive,Startup Inc,"Delhi, India",Hybrid,TensorFlow Developer,37200
+92,Data Engineer,0.8,Bachelors,13,Entertainment,Deloitte,"Bangalore, India",Yes,None,23600
+93,Business Intelligence Analyst,11.5,Bachelors,24,Automotive,Oracle,"Bangalore, India",Yes,Google ML Engineer,43200
+94,AI Solutions Architect,5.6,Masters,16,Telecommunications,Amazon,"New York, USA",No,AWS ML Specialty,143100
+95,Machine Learning Engineer,17.2,PhD,16,Telecommunications,Meta,"Berlin, Germany",No,IBM Data Science Cert,165700
+96,MLOps Engineer,1.8,PhD,13,Finance,Startup Inc,Remote,Hybrid,IBM Data Science Cert,66500
+97,Business Intelligence Analyst,10.9,Bachelors,4,Technology,Capgemini,"Chennai, India",Hybrid,Deep Learning Specialization,34100
+98,Applied Scientist,1.0,PhD,20,Retail,Meta,"New York, USA",Hybrid,Google ML Engineer,115000
+99,Research Intern,12.2,Masters,25,Retail,Meta,"Seattle, USA",Yes,TensorFlow Developer,55300
+100,Business Intelligence Analyst,18.3,Bachelors,6,Retail,HCL Tech,"Austin, USA",Hybrid,None,160000
+101,Computer Vision Engineer,16.7,Bachelors,10,Telecommunications,Adobe,"Pune, India",No,None,44600
+102,AI Consultant,17.6,Bachelors,11,Manufacturing,Nvidia,"Austin, USA",Hybrid,None,174000
+103,AI Consultant,6.0,Masters,21,Telecommunications,Infosys,"New York, USA",Hybrid,Google ML Engineer,144400
+104,Applied Scientist,10.9,Bachelors,13,Technology,Accenture,"London, UK",No,None,112300
+105,Data Scientist,6.4,Bachelors,25,Manufacturing,Startup Inc,"Berlin, Germany",Hybrid,Microsoft Certified: Azure Data Scientist,105200
+106,Data Scientist,2.5,Masters,13,Finance,Cognizant,"Hyderabad, India",Hybrid,Microsoft Certified: Azure Data Scientist,24300
+107,AI Research Scientist,8.2,Masters,5,Telecommunications,Deloitte,"Chennai, India",Hybrid,Azure AI Engineer,41100
+108,Business Intelligence Analyst,6.6,Masters,15,Education,HCL Tech,Remote,Hybrid,None,74200
+109,Research Intern,13.7,PhD,10,Finance,DataWorks,"Hyderabad, India",Hybrid,Azure AI Engineer,13500
+110,AI Research Scientist,13.9,Bachelors,4,Education,Microsoft,"Delhi, India",No,AWS ML Specialty,41300
+111,AI Product Manager,8.2,Masters,8,Retail,Amazon,"London, UK",No,TensorFlow Developer,114600
+112,AI Solutions Architect,11.7,Masters,17,Automotive,Cognizant,"Delhi, India",Hybrid,None,52300
+113,AI Solutions Architect,5.8,Masters,8,Finance,Cognizant,"Chennai, India",Hybrid,None,41400
+114,AI Consultant,5.0,PhD,9,Manufacturing,HCL Tech,"Hyderabad, India",Yes,AWS ML Specialty,38100
+115,Deep Learning Engineer,19.9,PhD,3,Manufacturing,Deloitte,"Bangalore, India",Hybrid,IBM Data Science Cert,55900
+116,Data Scientist,18.2,Bachelors,12,Technology,SAP,Singapore,No,None,138000
+117,Deep Learning Engineer,13.6,Masters,23,Finance,Microsoft,"Delhi, India",No,None,47200
+118,AI Research Scientist,1.8,PhD,13,Manufacturing,TCS,"Mumbai, India",Yes,Deep Learning Specialization,41500
+119,NLP Engineer,10.6,PhD,8,Automotive,HCL Tech,Singapore,No,Deep Learning Specialization,125800
+120,Machine Learning Engineer,9.4,Bachelors,7,Technology,Startup Inc,Remote,Hybrid,AWS ML Specialty,73700
+121,Data Scientist,5.3,Bachelors,17,Education,Deloitte,"London, UK",No,IBM Data Science Cert,94300
+122,Machine Learning Engineer,13.5,Bachelors,3,Entertainment,Adobe,"Chennai, India",Hybrid,None,32900
+123,Business Intelligence Analyst,9.3,PhD,23,Manufacturing,IBM,"Pune, India",Yes,Microsoft Certified: Azure Data Scientist,45000
+124,MLOps Engineer,2.3,Masters,20,Retail,Startup Inc,"New York, USA",No,Azure AI Engineer,111300
+125,AI Product Manager,8.4,Masters,16,Finance,HCL Tech,"London, UK",No,Microsoft Certified: Azure Data Scientist,125500
+126,AI Consultant,7.4,Bachelors,17,Technology,OpenAI,"Hyderabad, India",Hybrid,AWS ML Specialty,41000
+127,Research Intern,7.2,Bachelors,11,Technology,IBM,Remote,No,None,21500
+128,Research Intern,11.9,Bachelors,4,Education,Accenture,"Pune, India",Hybrid,None,14700
+129,AI Product Manager,4.1,Masters,10,Education,Infosys,Singapore,Hybrid,None,104300
+130,AI Research Scientist,19.8,Masters,11,Retail,IBM,"Berlin, Germany",Yes,None,176100
+131,Applied Scientist,4.8,PhD,3,Retail,Deloitte,"Bangalore, India",Yes,Deep Learning Specialization,32200
+132,AI Consultant,1.3,Bachelors,14,Government,Oracle,"Hyderabad, India",No,Google ML Engineer,31400
+133,Data Scientist,14.5,Masters,12,Telecommunications,Google,"Bangalore, India",No,IBM Data Science Cert,44500
+134,Machine Learning Engineer,9.8,Bachelors,5,Finance,Nvidia,"London, UK",Yes,None,93900
+135,Research Intern,11.7,PhD,15,Entertainment,Capgemini,"Delhi, India",No,Google ML Engineer,15800
+136,Applied Scientist,14.0,Masters,9,Manufacturing,Cognizant,"Austin, USA",Yes,AWS ML Specialty,156100
+137,Computer Vision Engineer,8.3,Bachelors,13,Manufacturing,Nvidia,"Berlin, Germany",No,AWS ML Specialty,96100
+138,AI Solutions Architect,9.5,Bachelors,5,Finance,DataWorks,"Hyderabad, India",Hybrid,Deep Learning Specialization,40700
+139,AI Product Manager,1.2,Masters,20,Education,IBM,"San Francisco, USA",No,IBM Data Science Cert,123300
+140,Computer Vision Engineer,17.4,Bachelors,12,Entertainment,Meta,"Chennai, India",Yes,TensorFlow Developer,43400
+141,Research Intern,9.6,Bachelors,14,Government,OpenAI,"Hyderabad, India",No,TensorFlow Developer,14800
+142,Business Intelligence Analyst,11.2,Masters,22,Government,Google,"London, UK",Hybrid,IBM Data Science Cert,131300
+143,AI Research Scientist,5.5,PhD,13,Education,Google,"Pune, India",Yes,TensorFlow Developer,43000
+144,AI Research Scientist,14.8,Bachelors,5,Government,Wipro,"San Francisco, USA",No,Google ML Engineer,160200
+145,Deep Learning Engineer,14.4,Masters,22,Finance,Microsoft,"Pune, India",Yes,Deep Learning Specialization,45400
+146,Machine Learning Engineer,5.4,Bachelors,18,Entertainment,Cognizant,"San Francisco, USA",No,None,109700
+147,NLP Engineer,8.6,PhD,24,Entertainment,HCL Tech,"Seattle, USA",Hybrid,None,161200
+148,Data Engineer,1.1,Masters,12,Technology,Infosys,Singapore,No,None,74300
+149,MLOps Engineer,14.9,Masters,7,Manufacturing,Adobe,"Toronto, Canada",Yes,Google ML Engineer,133600
+150,Applied Scientist,7.1,Bachelors,4,Manufacturing,Google,"New York, USA",Yes,IBM Data Science Cert,98700
+151,Data Engineer,8.1,Bachelors,12,Finance,Startup Inc,"Bangalore, India",No,None,35900
+152,MLOps Engineer,16.6,PhD,5,Manufacturing,IBM,"Mumbai, India",No,TensorFlow Developer,50000
+153,Computer Vision Engineer,17.4,PhD,10,Education,TCS,"Hyderabad, India",Hybrid,Azure AI Engineer,53200
+154,Data Analyst,18.1,PhD,14,Retail,Accenture,"Hyderabad, India",Yes,None,53000
+155,AI Research Scientist,15.2,Bachelors,8,Telecommunications,Cognizant,Singapore,Hybrid,Deep Learning Specialization,142500
+156,AI Solutions Architect,17.6,Masters,13,Education,Infosys,"New York, USA",Yes,Google ML Engineer,202700
+157,Applied Scientist,5.5,Bachelors,14,Government,Amazon,"Delhi, India",No,Google ML Engineer,25800
+158,Business Intelligence Analyst,5.7,Bachelors,22,Entertainment,Capgemini,"San Francisco, USA",No,TensorFlow Developer,120500
+159,AI Consultant,17.9,Bachelors,21,Technology,Nvidia,"London, UK",No,Google ML Engineer,167300
+160,MLOps Engineer,2.1,PhD,25,Finance,Capgemini,"Berlin, Germany",Yes,None,112700
+161,MLOps Engineer,10.5,Masters,8,Education,OpenAI,"Austin, USA",No,AWS ML Specialty,136300
+162,Research Intern,12.0,PhD,5,Education,IBM,"Seattle, USA",Hybrid,AWS ML Specialty,51700
+163,Business Intelligence Analyst,13.1,Masters,7,Education,Amazon,"London, UK",Hybrid,None,121900
+164,Research Intern,14.0,Bachelors,7,Entertainment,Amazon,"Delhi, India",Hybrid,AWS ML Specialty,15900
+165,Business Intelligence Analyst,2.6,Masters,5,Manufacturing,Capgemini,"Chennai, India",Yes,AWS ML Specialty,22600
+166,Data Analyst,6.8,Bachelors,9,Technology,Infosys,"Pune, India",Yes,None,31500
+167,AI Product Manager,15.4,Masters,4,Education,SAP,"Pune, India",Hybrid,AWS ML Specialty,44900
+168,Business Intelligence Analyst,13.9,Masters,8,Telecommunications,Microsoft,"San Francisco, USA",No,Azure AI Engineer,149400
+169,MLOps Engineer,12.2,Bachelors,10,Government,Accenture,"Delhi, India",No,Microsoft Certified: Azure Data Scientist,34900
+170,Research Intern,18.9,Bachelors,17,Automotive,Startup Inc,"Seattle, USA",Hybrid,AWS ML Specialty,59300
+171,Data Analyst,16.0,Masters,11,Healthcare,HCL Tech,Remote,No,TensorFlow Developer,100900
+172,Business Intelligence Analyst,10.3,Bachelors,12,Finance,TCS,"Delhi, India",No,Microsoft Certified: Azure Data Scientist,32600
+173,Computer Vision Engineer,1.8,Masters,17,Education,Google,"San Francisco, USA",Yes,AWS ML Specialty,101500
+174,Computer Vision Engineer,19.9,PhD,10,Healthcare,Nvidia,"Austin, USA",Yes,IBM Data Science Cert,202300
+175,Applied Scientist,2.9,Bachelors,12,Telecommunications,Infosys,Singapore,Hybrid,Google ML Engineer,75300
+176,AI Solutions Architect,1.6,PhD,9,Retail,Adobe,"Toronto, Canada",Hybrid,Google ML Engineer,106500
+177,Deep Learning Engineer,4.8,Bachelors,4,Technology,DataWorks,"Berlin, Germany",Hybrid,Google ML Engineer,69700
+178,AI Solutions Architect,10.0,Masters,3,Government,Oracle,"Mumbai, India",Hybrid,None,41100
+179,Data Engineer,7.1,Masters,16,Retail,Amazon,"Seattle, USA",No,None,128400
+180,AI Product Manager,15.7,Masters,20,Healthcare,Startup Inc,Remote,No,None,120300
+181,NLP Engineer,5.1,Bachelors,14,Finance,OpenAI,"Mumbai, India",Hybrid,Azure AI Engineer,25600
+182,Data Engineer,14.7,PhD,7,Healthcare,OpenAI,"Seattle, USA",No,IBM Data Science Cert,167500
+183,Applied Scientist,13.7,Bachelors,23,Retail,Infosys,"Hyderabad, India",Hybrid,Deep Learning Specialization,44500
+184,Deep Learning Engineer,4.0,Masters,4,Education,Meta,"Seattle, USA",No,Microsoft Certified: Azure Data Scientist,95400
+185,Deep Learning Engineer,0.7,Masters,12,Education,Microsoft,Remote,Hybrid,None,53000
+186,NLP Engineer,8.7,Bachelors,17,Manufacturing,Nvidia,"Pune, India",No,Azure AI Engineer,34100
+187,Applied Scientist,10.4,Bachelors,16,Finance,DataWorks,"London, UK",Yes,TensorFlow Developer,110200
+188,Machine Learning Engineer,6.6,PhD,12,Telecommunications,SAP,"Toronto, Canada",No,None,114200
+189,MLOps Engineer,0.8,PhD,22,Manufacturing,Deloitte,"Berlin, Germany",Yes,None,102800
+190,NLP Engineer,10.3,Masters,3,Retail,SAP,"Berlin, Germany",No,None,102700
+191,Applied Scientist,12.9,PhD,15,Entertainment,Microsoft,"London, UK",Yes,Azure AI Engineer,149100
+192,NLP Engineer,8.9,Bachelors,21,Retail,Capgemini,"Chennai, India",No,None,35300
+193,Machine Learning Engineer,0.5,Masters,18,Government,Startup Inc,"Austin, USA",Hybrid,None,99500
+194,AI Consultant,8.9,Masters,12,Telecommunications,Wipro,"Hyderabad, India",Yes,IBM Data Science Cert,41100
+195,AI Solutions Architect,14.3,Bachelors,24,Education,OpenAI,"Toronto, Canada",Yes,TensorFlow Developer,156800
+196,Deep Learning Engineer,17.0,Masters,14,Government,Accenture,"Hyderabad, India",Yes,Deep Learning Specialization,47400
+197,MLOps Engineer,0.5,Masters,21,Education,Cognizant,Singapore,Hybrid,None,88800
+198,Machine Learning Engineer,6.2,Bachelors,19,Manufacturing,DataWorks,Remote,Hybrid,None,75700
+199,Research Intern,1.5,Bachelors,24,Government,OpenAI,"Pune, India",Hybrid,Azure AI Engineer,8000
+200,AI Research Scientist,8.7,Bachelors,6,Government,Infosys,"Delhi, India",Yes,None,40900
+201,Data Analyst,6.9,Masters,12,Finance,Deloitte,"Mumbai, India",Hybrid,Microsoft Certified: Azure Data Scientist,32300
+202,Research Intern,6.1,Masters,5,Government,TCS,"London, UK",Hybrid,None,32900
+203,AI Consultant,18.0,PhD,21,Healthcare,Google,"Hyderabad, India",Yes,Microsoft Certified: Azure Data Scientist,64900
+204,Deep Learning Engineer,13.0,Masters,16,Entertainment,Google,"New York, USA",Hybrid,TensorFlow Developer,159500
+205,Deep Learning Engineer,9.7,Bachelors,12,Telecommunications,Amazon,"Toronto, Canada",Yes,None,103100
+206,MLOps Engineer,4.1,Masters,7,Education,Nvidia,"Toronto, Canada",No,Microsoft Certified: Azure Data Scientist,81300
+207,NLP Engineer,10.3,Bachelors,13,Technology,Cognizant,"Hyderabad, India",No,Google ML Engineer,33000
+208,Data Scientist,5.8,Bachelors,22,Manufacturing,Accenture,Remote,Yes,IBM Data Science Cert,76800
+209,AI Consultant,6.3,Masters,18,Government,Cognizant,"New York, USA",No,Google ML Engineer,139700
+210,Computer Vision Engineer,10.1,Masters,9,Entertainment,OpenAI,"Bangalore, India",Yes,None,38300
+211,Business Intelligence Analyst,13.1,Bachelors,12,Government,Google,Remote,Yes,AWS ML Specialty,90800
+212,AI Consultant,7.3,Bachelors,14,Healthcare,Startup Inc,"Bangalore, India",Hybrid,TensorFlow Developer,35300
+213,Deep Learning Engineer,1.5,Masters,17,Government,Deloitte,Remote,Hybrid,Azure AI Engineer,60100
+214,Machine Learning Engineer,7.9,PhD,20,Education,Infosys,"Mumbai, India",Hybrid,Google ML Engineer,43300
+215,Data Scientist,0.8,PhD,18,Government,Cognizant,"Pune, India",Hybrid,Microsoft Certified: Azure Data Scientist,29400
+216,AI Solutions Architect,12.3,Masters,15,Entertainment,Meta,"London, UK",No,Google ML Engineer,149700
+217,MLOps Engineer,14.2,PhD,18,Healthcare,OpenAI,"Chennai, India",Hybrid,None,50900
+218,Deep Learning Engineer,15.9,Bachelors,22,Telecommunications,Deloitte,"Berlin, Germany",Hybrid,TensorFlow Developer,144400
+219,Data Engineer,9.6,Masters,23,Entertainment,Startup Inc,"Pune, India",Hybrid,None,43100
+220,AI Consultant,2.2,Bachelors,17,Education,DataWorks,"Pune, India",No,Azure AI Engineer,29600
+221,Applied Scientist,12.2,Bachelors,4,Retail,Capgemini,"Mumbai, India",Hybrid,None,36200
+222,AI Product Manager,7.5,Masters,17,Government,Nvidia,"Seattle, USA",No,Azure AI Engineer,150600
+223,Research Intern,12.9,PhD,22,Telecommunications,Wipro,"Mumbai, India",No,TensorFlow Developer,15800
+224,Deep Learning Engineer,15.4,Masters,25,Telecommunications,Nvidia,"New York, USA",No,TensorFlow Developer,187100
+225,AI Consultant,5.5,Bachelors,21,Government,Startup Inc,"Austin, USA",No,IBM Data Science Cert,134000
+226,Applied Scientist,2.9,Bachelors,12,Finance,OpenAI,"Austin, USA",No,Azure AI Engineer,90100
+227,Data Analyst,4.0,Masters,11,Government,Deloitte,"Pune, India",Yes,TensorFlow Developer,30300
+228,Data Analyst,1.0,Masters,10,Technology,Microsoft,"Hyderabad, India",No,None,24600
+229,Research Intern,15.4,Bachelors,20,Retail,DataWorks,"Berlin, Germany",No,Google ML Engineer,45900
+230,Deep Learning Engineer,6.4,Bachelors,5,Entertainment,Accenture,"Seattle, USA",Hybrid,Deep Learning Specialization,99500
+231,AI Solutions Architect,18.4,Bachelors,8,Healthcare,Startup Inc,Singapore,No,None,158700
+232,Business Intelligence Analyst,18.5,Bachelors,3,Automotive,Oracle,"London, UK",Yes,Microsoft Certified: Azure Data Scientist,129500
+233,MLOps Engineer,19.8,Masters,19,Telecommunications,Infosys,Remote,Hybrid,Google ML Engineer,121000
+234,Machine Learning Engineer,6.6,Bachelors,23,Automotive,TCS,"Bangalore, India",Hybrid,None,32900
+235,Research Intern,15.1,Masters,22,Manufacturing,DataWorks,"Seattle, USA",No,None,63600
+236,AI Research Scientist,19.6,Bachelors,13,Technology,Google,"Delhi, India",No,None,58000
+237,NLP Engineer,6.0,Masters,3,Automotive,OpenAI,"Toronto, Canada",Yes,None,84600
+238,Deep Learning Engineer,3.2,Masters,25,Automotive,IBM,"Berlin, Germany",No,AWS ML Specialty,100000
+239,AI Research Scientist,9.6,Bachelors,22,Education,DataWorks,"Toronto, Canada",Hybrid,Microsoft Certified: Azure Data Scientist,137800
+240,Applied Scientist,13.3,Masters,10,Entertainment,Amazon,"Seattle, USA",No,Google ML Engineer,150200
+241,AI Solutions Architect,11.3,Bachelors,20,Government,Wipro,"London, UK",Hybrid,None,139200
+242,AI Product Manager,8.8,Masters,25,Entertainment,HCL Tech,"Hyderabad, India",Hybrid,Google ML Engineer,43100
+243,AI Research Scientist,10.3,Bachelors,21,Healthcare,Adobe,"New York, USA",Hybrid,IBM Data Science Cert,164800
+244,Computer Vision Engineer,5.1,Bachelors,9,Entertainment,Amazon,"Bangalore, India",No,None,23200
+245,Data Scientist,18.7,Bachelors,18,Healthcare,Meta,"San Francisco, USA",Yes,Deep Learning Specialization,179800
+246,AI Consultant,12.9,Bachelors,14,Manufacturing,Cognizant,Remote,No,AWS ML Specialty,100300
+247,Research Intern,17.5,Masters,23,Education,IBM,"Pune, India",Hybrid,AWS ML Specialty,15900
+248,Data Analyst,16.7,Bachelors,12,Telecommunications,Adobe,"San Francisco, USA",Hybrid,AWS ML Specialty,156600
+249,MLOps Engineer,6.9,PhD,9,Finance,Microsoft,Singapore,Hybrid,AWS ML Specialty,114400
+250,AI Solutions Architect,17.8,Masters,9,Finance,IBM,"London, UK",Yes,Google ML Engineer,167500
+251,Business Intelligence Analyst,1.0,Bachelors,15,Telecommunications,Accenture,"Seattle, USA",Yes,Deep Learning Specialization,84900
+252,AI Research Scientist,10.1,PhD,10,Entertainment,Nvidia,"London, UK",Hybrid,Deep Learning Specialization,150100
+253,Data Analyst,6.0,Masters,24,Government,Accenture,"San Francisco, USA",No,None,134500
+254,Data Engineer,17.6,Masters,23,Manufacturing,Adobe,"New York, USA",Yes,Microsoft Certified: Azure Data Scientist,195600
+255,Research Intern,7.6,Masters,13,Manufacturing,DataWorks,"Pune, India",No,AWS ML Specialty,14500
+256,MLOps Engineer,4.8,Masters,12,Retail,Cognizant,"Austin, USA",Yes,TensorFlow Developer,114400
+257,AI Product Manager,10.6,Bachelors,10,Automotive,Wipro,"Chennai, India",Hybrid,None,39200
+258,NLP Engineer,1.8,Masters,4,Automotive,Startup Inc,"Berlin, Germany",Hybrid,TensorFlow Developer,73700
+259,Data Analyst,16.1,Masters,24,Government,Wipro,"New York, USA",Yes,IBM Data Science Cert,184500
+260,AI Solutions Architect,0.3,Masters,6,Telecommunications,Accenture,"Toronto, Canada",Hybrid,Azure AI Engineer,86100
+261,Data Analyst,11.0,PhD,15,Telecommunications,Adobe,"Berlin, Germany",No,None,136200
+262,AI Solutions Architect,9.9,Bachelors,18,Education,Wipro,"Chennai, India",No,AWS ML Specialty,44500
+263,Data Analyst,14.8,Bachelors,11,Government,Oracle,"London, UK",Hybrid,AWS ML Specialty,121800
+264,NLP Engineer,4.6,Masters,10,Telecommunications,Adobe,"Berlin, Germany",Hybrid,None,92200
+265,MLOps Engineer,19.3,Bachelors,17,Retail,OpenAI,"Pune, India",Yes,Deep Learning Specialization,50300
+266,AI Solutions Architect,17.8,Bachelors,19,Healthcare,Amazon,Remote,Hybrid,None,120100
+267,AI Research Scientist,16.9,Masters,5,Retail,Google,"Mumbai, India",Hybrid,Google ML Engineer,48900
+268,Research Intern,13.3,Masters,18,Telecommunications,Google,"Bangalore, India",Hybrid,TensorFlow Developer,12100
+269,AI Product Manager,14.4,Masters,12,Healthcare,Capgemini,Remote,Hybrid,Azure AI Engineer,112300
+270,AI Solutions Architect,3.6,Bachelors,19,Retail,Accenture,"Mumbai, India",Hybrid,Google ML Engineer,37900
+271,Deep Learning Engineer,15.9,Bachelors,14,Manufacturing,Cognizant,"London, UK",Yes,Microsoft Certified: Azure Data Scientist,130800
+272,Research Intern,16.6,Bachelors,23,Healthcare,Amazon,"San Francisco, USA",No,AWS ML Specialty,60700
+273,Research Intern,0.2,Masters,5,Telecommunications,DataWorks,"Berlin, Germany",No,TensorFlow Developer,25600
+274,Machine Learning Engineer,17.9,Bachelors,10,Technology,Oracle,"New York, USA",No,None,158600
+275,AI Solutions Architect,5.6,Masters,21,Healthcare,TCS,"Austin, USA",No,None,149400
+276,AI Research Scientist,15.0,Bachelors,5,Automotive,TCS,"London, UK",Yes,TensorFlow Developer,141200
+277,Research Intern,17.9,PhD,15,Retail,Amazon,"Seattle, USA",Hybrid,Microsoft Certified: Azure Data Scientist,65700
+278,Computer Vision Engineer,4.6,Bachelors,13,Entertainment,SAP,"London, UK",No,Microsoft Certified: Azure Data Scientist,81500
+279,Research Intern,5.5,Bachelors,18,Technology,OpenAI,"Seattle, USA",No,AWS ML Specialty,40000
+280,Research Intern,7.6,Masters,12,Technology,Amazon,"Hyderabad, India",No,None,14000
+281,Research Intern,3.1,Bachelors,13,Education,IBM,"Hyderabad, India",Yes,Microsoft Certified: Azure Data Scientist,8500
+282,Applied Scientist,5.4,Masters,5,Retail,DataWorks,"New York, USA",Hybrid,TensorFlow Developer,102900
+283,Data Scientist,1.8,Masters,5,Entertainment,SAP,Singapore,No,IBM Data Science Cert,68000
+284,Computer Vision Engineer,7.8,Bachelors,20,Technology,Oracle,"Seattle, USA",Yes,Azure AI Engineer,122100
+285,Deep Learning Engineer,6.0,Bachelors,7,Finance,TCS,"San Francisco, USA",No,AWS ML Specialty,96700
+286,Machine Learning Engineer,7.2,Masters,23,Telecommunications,SAP,"London, UK",Yes,Google ML Engineer,114200
+287,Data Scientist,19.0,PhD,22,Manufacturing,Nvidia,"New York, USA",No,AWS ML Specialty,216300
+288,Research Intern,19.5,Masters,12,Education,SAP,"Toronto, Canada",Yes,Google ML Engineer,52300
+289,Computer Vision Engineer,19.4,PhD,25,Telecommunications,Oracle,Singapore,Yes,None,184000
+290,Applied Scientist,7.9,Bachelors,21,Technology,Oracle,"Seattle, USA",Yes,Azure AI Engineer,127100
+291,AI Consultant,9.2,Masters,17,Automotive,Amazon,Remote,No,Azure AI Engineer,94900
+292,Deep Learning Engineer,4.8,Masters,25,Manufacturing,Startup Inc,"Hyderabad, India",No,Microsoft Certified: Azure Data Scientist,36200
+293,Computer Vision Engineer,10.7,Bachelors,20,Healthcare,OpenAI,"Toronto, Canada",Hybrid,TensorFlow Developer,121100
+294,Machine Learning Engineer,15.4,PhD,8,Entertainment,Microsoft,"London, UK",Hybrid,Azure AI Engineer,147000
+295,Applied Scientist,6.6,Bachelors,6,Healthcare,IBM,"Delhi, India",Yes,Google ML Engineer,27800
+296,Data Engineer,13.8,Masters,17,Education,Startup Inc,"New York, USA",Hybrid,TensorFlow Developer,163900
+297,NLP Engineer,20.0,Bachelors,6,Automotive,DataWorks,"Austin, USA",Yes,None,170600
+298,AI Research Scientist,7.0,PhD,17,Technology,Capgemini,"New York, USA",No,Google ML Engineer,168600
+299,AI Consultant,9.0,Bachelors,12,Healthcare,IBM,"Bangalore, India",No,Azure AI Engineer,39500
+300,AI Research Scientist,18.6,Masters,19,Retail,Adobe,"Pune, India",No,TensorFlow Developer,64200
+301,Data Analyst,16.0,Masters,8,Manufacturing,Startup Inc,"Bangalore, India",Hybrid,TensorFlow Developer,43200
+302,Data Engineer,8.6,Bachelors,25,Technology,Wipro,"Delhi, India",Hybrid,IBM Data Science Cert,34800
+303,Machine Learning Engineer,16.0,Masters,8,Education,Nvidia,"Mumbai, India",No,None,47000
+304,MLOps Engineer,10.6,PhD,22,Manufacturing,SAP,"San Francisco, USA",Hybrid,None,169600
+305,MLOps Engineer,12.3,PhD,22,Entertainment,Amazon,"Berlin, Germany",Yes,None,149300
+306,Machine Learning Engineer,3.7,Masters,19,Manufacturing,DataWorks,"London, UK",Yes,TensorFlow Developer,96500
+307,MLOps Engineer,12.7,Masters,20,Retail,HCL Tech,"Delhi, India",Yes,None,48500
+308,Data Engineer,1.1,PhD,3,Telecommunications,Infosys,"Mumbai, India",No,Microsoft Certified: Azure Data Scientist,26700
+309,MLOps Engineer,8.2,Bachelors,16,Telecommunications,HCL Tech,"Pune, India",Yes,TensorFlow Developer,36400
+310,Data Analyst,5.8,PhD,10,Government,Meta,"Pune, India",No,TensorFlow Developer,38400
+311,MLOps Engineer,11.0,Bachelors,21,Finance,Deloitte,Singapore,Hybrid,IBM Data Science Cert,119200
+312,Business Intelligence Analyst,15.1,Bachelors,20,Technology,DataWorks,"Hyderabad, India",Hybrid,IBM Data Science Cert,47600
+313,Deep Learning Engineer,17.5,Bachelors,17,Automotive,OpenAI,Remote,Yes,AWS ML Specialty,110300
+314,Applied Scientist,16.2,Masters,21,Education,SAP,"Berlin, Germany",No,None,150700
+315,Data Analyst,16.3,Bachelors,21,Education,Adobe,"Delhi, India",Hybrid,TensorFlow Developer,46300
+316,AI Consultant,5.9,Masters,11,Government,IBM,"Pune, India",No,Microsoft Certified: Azure Data Scientist,40700
+317,Business Intelligence Analyst,13.1,Masters,10,Retail,Nvidia,Remote,Yes,Deep Learning Specialization,95300
+318,MLOps Engineer,2.8,PhD,23,Manufacturing,Startup Inc,"New York, USA",Yes,Azure AI Engineer,135300
+319,Machine Learning Engineer,8.1,PhD,25,Education,Cognizant,"New York, USA",No,TensorFlow Developer,165200
+320,Business Intelligence Analyst,14.7,Bachelors,23,Education,Amazon,Singapore,Hybrid,AWS ML Specialty,142400
+321,Business Intelligence Analyst,4.2,PhD,13,Automotive,Nvidia,"Seattle, USA",Hybrid,None,127800
+322,Applied Scientist,6.9,Bachelors,4,Finance,Cognizant,"Bangalore, India",Yes,Microsoft Certified: Azure Data Scientist,24600
+323,MLOps Engineer,0.0,Bachelors,9,Retail,Meta,"Pune, India",No,None,18300
+324,Machine Learning Engineer,7.4,Masters,4,Manufacturing,Meta,"Toronto, Canada",Hybrid,Deep Learning Specialization,94300
+325,Machine Learning Engineer,14.1,Bachelors,9,Telecommunications,Amazon,"Pune, India",Hybrid,None,41100
+326,Data Scientist,0.2,PhD,6,Manufacturing,Infosys,"New York, USA",Yes,None,91200
+327,Applied Scientist,2.0,PhD,14,Automotive,Infosys,"San Francisco, USA",Yes,Azure AI Engineer,116600
+328,Machine Learning Engineer,10.6,Bachelors,22,Retail,Cognizant,"Chennai, India",Hybrid,None,41900
+329,AI Solutions Architect,8.2,Bachelors,9,Finance,IBM,"Pune, India",Yes,TensorFlow Developer,37000
+330,Computer Vision Engineer,6.3,Masters,10,Automotive,Amazon,"Mumbai, India",Hybrid,TensorFlow Developer,34200
+331,Deep Learning Engineer,15.6,Bachelors,24,Automotive,Wipro,"Seattle, USA",Hybrid,Google ML Engineer,172400
+332,Deep Learning Engineer,12.9,Masters,18,Manufacturing,IBM,"Mumbai, India",No,Azure AI Engineer,41800
+333,AI Solutions Architect,19.6,PhD,13,Retail,Startup Inc,Remote,Hybrid,AWS ML Specialty,142800
+334,AI Research Scientist,15.3,Bachelors,3,Entertainment,Amazon,"Bangalore, India",No,None,49100
+335,Applied Scientist,8.0,PhD,23,Government,DataWorks,"San Francisco, USA",Hybrid,AWS ML Specialty,160000
+336,AI Product Manager,12.3,PhD,5,Automotive,Amazon,"Seattle, USA",Yes,Microsoft Certified: Azure Data Scientist,168200
+337,NLP Engineer,7.8,Bachelors,12,Manufacturing,Accenture,"Bangalore, India",Yes,None,31300
+338,MLOps Engineer,12.2,Bachelors,12,Retail,IBM,"Bangalore, India",Hybrid,None,34300
+339,MLOps Engineer,19.1,Masters,19,Automotive,TCS,"Chennai, India",Yes,Deep Learning Specialization,57500
+340,AI Consultant,17.7,Bachelors,13,Manufacturing,Deloitte,"Seattle, USA",Yes,None,185100
+341,Research Intern,1.5,Bachelors,19,Education,Microsoft,"New York, USA",Hybrid,None,29100
+342,Applied Scientist,2.1,Masters,24,Finance,Accenture,"Toronto, Canada",Hybrid,None,99200
+343,Data Scientist,4.9,Bachelors,14,Manufacturing,Infosys,"Pune, India",Yes,TensorFlow Developer,31800
+344,AI Consultant,13.1,Masters,13,Technology,DataWorks,"Austin, USA",Hybrid,None,173200
+345,Data Engineer,7.5,Masters,24,Healthcare,TCS,"Mumbai, India",Hybrid,Microsoft Certified: Azure Data Scientist,43500
+346,Machine Learning Engineer,17.5,PhD,12,Education,Amazon,"Seattle, USA",No,None,189300
+347,Data Engineer,15.7,Masters,10,Telecommunications,OpenAI,"London, UK",No,Microsoft Certified: Azure Data Scientist,140200
+348,AI Consultant,18.0,Masters,7,Healthcare,DataWorks,"Bangalore, India",Yes,TensorFlow Developer,53700
+349,AI Consultant,17.5,PhD,3,Manufacturing,Meta,"Hyderabad, India",Yes,Google ML Engineer,52700
+350,MLOps Engineer,19.2,Masters,25,Automotive,Amazon,"Bangalore, India",Yes,Microsoft Certified: Azure Data Scientist,57300
+351,AI Consultant,17.9,Bachelors,5,Entertainment,IBM,"Seattle, USA",Yes,Azure AI Engineer,170000
+352,Data Engineer,11.4,Bachelors,24,Retail,Accenture,"Delhi, India",No,IBM Data Science Cert,45300
+353,Computer Vision Engineer,14.0,PhD,13,Telecommunications,Deloitte,"Mumbai, India",Yes,Microsoft Certified: Azure Data Scientist,46400
+354,Applied Scientist,11.7,Masters,6,Retail,Cognizant,"New York, USA",No,AWS ML Specialty,137600
+355,Applied Scientist,4.2,PhD,17,Automotive,IBM,"Hyderabad, India",Yes,IBM Data Science Cert,35200
+356,AI Consultant,13.9,Bachelors,9,Education,Infosys,"Hyderabad, India",Hybrid,None,42800
+357,AI Product Manager,1.0,PhD,11,Retail,Google,"San Francisco, USA",No,TensorFlow Developer,122200
+358,Machine Learning Engineer,9.2,Masters,6,Healthcare,Microsoft,Remote,Yes,None,80400
+359,NLP Engineer,13.7,Bachelors,21,Entertainment,Deloitte,"Austin, USA",Yes,None,152900
+360,AI Solutions Architect,12.9,Masters,5,Education,IBM,"Bangalore, India",No,None,50100
+361,Computer Vision Engineer,16.4,Bachelors,18,Healthcare,Startup Inc,"Berlin, Germany",No,None,137700
+362,AI Research Scientist,5.5,Bachelors,7,Healthcare,SAP,"London, UK",Hybrid,None,98100
+363,Computer Vision Engineer,17.7,Bachelors,4,Finance,Deloitte,"San Francisco, USA",Yes,AWS ML Specialty,153500
+364,Applied Scientist,10.5,Masters,3,Manufacturing,OpenAI,"New York, USA",Hybrid,Deep Learning Specialization,125600
+365,Data Engineer,10.0,Bachelors,11,Retail,Google,"Chennai, India",Hybrid,None,37800
+366,Applied Scientist,5.6,Bachelors,19,Education,Oracle,"Mumbai, India",Yes,None,32800
+367,Deep Learning Engineer,10.7,Bachelors,10,Entertainment,Startup Inc,"Chennai, India",Yes,None,35900
+368,Applied Scientist,14.8,PhD,21,Healthcare,OpenAI,"London, UK",Hybrid,None,164600
+369,Business Intelligence Analyst,19.8,Bachelors,20,Automotive,TCS,"New York, USA",Yes,None,184000
+370,Data Analyst,0.4,Bachelors,3,Education,SAP,"Mumbai, India",Yes,None,15000
+371,Applied Scientist,16.9,PhD,4,Healthcare,Infosys,"London, UK",Hybrid,Microsoft Certified: Azure Data Scientist,151600
+372,Business Intelligence Analyst,10.5,PhD,5,Education,Startup Inc,"London, UK",Yes,None,121600
+373,AI Research Scientist,14.6,Bachelors,23,Telecommunications,Nvidia,"Pune, India",Hybrid,Microsoft Certified: Azure Data Scientist,54400
+374,AI Solutions Architect,12.3,PhD,10,Entertainment,TCS,"San Francisco, USA",No,Deep Learning Specialization,184500
+375,AI Research Scientist,14.6,Masters,15,Entertainment,Microsoft,"Pune, India",Hybrid,None,55700
+376,Data Engineer,4.4,Masters,6,Telecommunications,Infosys,"Chennai, India",Hybrid,None,26900
+377,NLP Engineer,3.4,Bachelors,25,Education,Cognizant,"Bangalore, India",No,None,32300
+378,NLP Engineer,5.1,Bachelors,3,Healthcare,Startup Inc,"New York, USA",Hybrid,AWS ML Specialty,83800
+379,Computer Vision Engineer,9.9,Bachelors,14,Government,Startup Inc,"Hyderabad, India",No,Deep Learning Specialization,36300
+380,Applied Scientist,13.7,Masters,17,Finance,Microsoft,"Delhi, India",Yes,None,49600
+381,Machine Learning Engineer,6.8,Bachelors,8,Finance,Adobe,"Austin, USA",Yes,None,106200
+382,AI Solutions Architect,9.7,Bachelors,16,Retail,SAP,"Austin, USA",No,None,149500
+383,Data Analyst,19.5,Bachelors,25,Government,Adobe,"Delhi, India",Hybrid,None,51900
+384,Data Scientist,7.9,Masters,18,Retail,Microsoft,"Chennai, India",Yes,AWS ML Specialty,36400
+385,Research Intern,12.5,Bachelors,9,Finance,Google,"Mumbai, India",Yes,Azure AI Engineer,16900
+386,MLOps Engineer,16.9,PhD,15,Telecommunications,HCL Tech,"Austin, USA",Hybrid,None,194100
+387,Computer Vision Engineer,3.7,Bachelors,14,Retail,Cognizant,"Bangalore, India",No,AWS ML Specialty,24900
+388,Business Intelligence Analyst,5.4,Bachelors,7,Finance,Amazon,"Berlin, Germany",No,IBM Data Science Cert,78400
+389,Applied Scientist,11.8,Masters,4,Manufacturing,Capgemini,"San Francisco, USA",Hybrid,Azure AI Engineer,138500
+390,Data Engineer,17.6,Bachelors,12,Finance,Startup Inc,"Austin, USA",Hybrid,None,164000
+391,AI Product Manager,16.0,Masters,7,Finance,Cognizant,"Pune, India",Yes,Microsoft Certified: Azure Data Scientist,52200
+392,AI Research Scientist,0.9,Bachelors,24,Manufacturing,Wipro,Remote,Hybrid,None,75200
+393,NLP Engineer,18.2,Bachelors,5,Manufacturing,Adobe,"San Francisco, USA",Hybrid,None,154600
+394,MLOps Engineer,18.3,Bachelors,25,Entertainment,Oracle,"Seattle, USA",No,None,182900
+395,Data Engineer,11.8,Bachelors,6,Entertainment,IBM,Singapore,No,IBM Data Science Cert,108600
+396,AI Solutions Architect,8.2,Bachelors,23,Telecommunications,Oracle,"London, UK",No,None,129100
+397,AI Research Scientist,12.4,Bachelors,4,Manufacturing,Nvidia,"Toronto, Canada",Yes,None,125700
+398,Deep Learning Engineer,17.9,Bachelors,13,Automotive,Meta,"Delhi, India",No,IBM Data Science Cert,48300
+399,Business Intelligence Analyst,4.6,PhD,17,Education,Deloitte,"Toronto, Canada",No,TensorFlow Developer,108800
+400,MLOps Engineer,4.2,Bachelors,18,Government,OpenAI,Remote,Yes,Google ML Engineer,61900
+401,Deep Learning Engineer,14.2,Bachelors,7,Government,Oracle,"Bangalore, India",Yes,None,41700
+402,Business Intelligence Analyst,1.2,Bachelors,17,Healthcare,OpenAI,"Toronto, Canada",Yes,None,75700
+403,AI Product Manager,7.9,Bachelors,24,Healthcare,Accenture,"Chennai, India",No,TensorFlow Developer,38800
+404,Business Intelligence Analyst,9.5,Masters,14,Education,TCS,Remote,No,Deep Learning Specialization,87500
+405,Deep Learning Engineer,0.5,Bachelors,8,Entertainment,Wipro,Remote,Yes,Azure AI Engineer,45200
+406,Deep Learning Engineer,13.0,Masters,3,Healthcare,HCL Tech,"Austin, USA",Yes,Azure AI Engineer,140500
+407,Data Scientist,4.5,Masters,12,Automotive,DataWorks,"Austin, USA",No,IBM Data Science Cert,108800
+408,Data Analyst,9.3,Masters,22,Manufacturing,Oracle,"Hyderabad, India",Yes,Google ML Engineer,43000
+409,Business Intelligence Analyst,16.8,Masters,23,Entertainment,SAP,"Delhi, India",No,Azure AI Engineer,52700
+410,NLP Engineer,19.8,PhD,11,Automotive,Meta,"Mumbai, India",Yes,Google ML Engineer,54700
+411,Data Scientist,16.1,Masters,15,Education,Infosys,"Toronto, Canada",Yes,Azure AI Engineer,149800
+412,Deep Learning Engineer,18.1,Bachelors,15,Healthcare,Oracle,"Toronto, Canada",Hybrid,IBM Data Science Cert,142400
+413,AI Consultant,4.4,Masters,23,Telecommunications,OpenAI,"Seattle, USA",No,IBM Data Science Cert,143200
+414,AI Solutions Architect,11.2,PhD,6,Telecommunications,Infosys,"Toronto, Canada",No,Deep Learning Specialization,147900
+415,AI Solutions Architect,3.7,PhD,23,Finance,Accenture,"Chennai, India",Yes,Deep Learning Specialization,43700
+416,Applied Scientist,17.7,PhD,11,Entertainment,Meta,"New York, USA",Yes,Google ML Engineer,194200
+417,Data Engineer,11.6,Masters,5,Telecommunications,Wipro,"Seattle, USA",Yes,IBM Data Science Cert,134400
+418,Deep Learning Engineer,8.3,Masters,7,Technology,Nvidia,"San Francisco, USA",Hybrid,Microsoft Certified: Azure Data Scientist,125300
+419,AI Research Scientist,6.3,Masters,5,Telecommunications,Nvidia,"Berlin, Germany",Yes,None,108100
+420,MLOps Engineer,5.5,Masters,21,Retail,HCL Tech,Singapore,Yes,None,106800
+421,Computer Vision Engineer,8.1,Bachelors,15,Healthcare,Microsoft,"Seattle, USA",Yes,Deep Learning Specialization,122700
+422,AI Solutions Architect,6.4,Masters,9,Healthcare,Google,"Berlin, Germany",Hybrid,None,118400
+423,NLP Engineer,6.2,Bachelors,15,Government,Oracle,"Delhi, India",Yes,None,27100
+424,Deep Learning Engineer,9.1,Masters,22,Government,Nvidia,"San Francisco, USA",Hybrid,Microsoft Certified: Azure Data Scientist,145800
+425,AI Solutions Architect,9.8,Masters,8,Manufacturing,Google,"Mumbai, India",Yes,Deep Learning Specialization,40500
+426,AI Consultant,0.4,Masters,8,Finance,OpenAI,"Toronto, Canada",Hybrid,Deep Learning Specialization,82000
+427,Research Intern,5.1,Masters,22,Healthcare,SAP,"Bangalore, India",Hybrid,None,15200
+428,Data Scientist,13.8,Bachelors,17,Manufacturing,IBM,"Seattle, USA",No,Google ML Engineer,148400
+429,AI Consultant,13.7,Bachelors,12,Manufacturing,IBM,"Berlin, Germany",Hybrid,None,135400
+430,AI Research Scientist,8.4,Bachelors,19,Entertainment,IBM,"Delhi, India",Yes,Deep Learning Specialization,42300
+431,Data Engineer,4.0,PhD,19,Technology,OpenAI,"Toronto, Canada",No,None,108200
+432,MLOps Engineer,18.2,Bachelors,13,Technology,Google,"Bangalore, India",Hybrid,None,44100
+433,Data Engineer,13.4,Masters,5,Government,Amazon,"Toronto, Canada",Hybrid,None,120100
+434,Data Analyst,9.1,PhD,11,Telecommunications,Microsoft,"Hyderabad, India",Yes,IBM Data Science Cert,44200
+435,NLP Engineer,16.0,PhD,16,Finance,IBM,Remote,Yes,None,115700
+436,Research Intern,3.4,PhD,17,Entertainment,Deloitte,"Austin, USA",Hybrid,None,46900
+437,AI Research Scientist,2.3,Bachelors,17,Automotive,Startup Inc,"Toronto, Canada",No,Deep Learning Specialization,99300
+438,Applied Scientist,3.3,Masters,25,Healthcare,TCS,"Hyderabad, India",No,Microsoft Certified: Azure Data Scientist,34100
+439,Data Engineer,13.6,Masters,22,Manufacturing,OpenAI,"London, UK",Yes,IBM Data Science Cert,146600
+440,AI Consultant,19.5,Masters,18,Telecommunications,IBM,"Austin, USA",No,Google ML Engineer,207100
+441,Research Intern,6.3,Masters,21,Entertainment,Accenture,"Berlin, Germany",No,Google ML Engineer,40300
+442,Data Engineer,1.9,Masters,18,Education,Startup Inc,"Pune, India",Hybrid,Microsoft Certified: Azure Data Scientist,30300
+443,Data Scientist,12.9,Masters,19,Telecommunications,HCL Tech,Remote,Yes,None,101300
+444,Data Analyst,6.6,PhD,4,Government,Accenture,"Seattle, USA",Hybrid,AWS ML Specialty,126900
+445,Machine Learning Engineer,9.2,Masters,17,Finance,HCL Tech,"New York, USA",No,None,140400
+446,Research Intern,0.4,Bachelors,16,Healthcare,Adobe,"Seattle, USA",Yes,IBM Data Science Cert,30700
+447,Data Engineer,12.8,Masters,20,Technology,Cognizant,"Chennai, India",No,IBM Data Science Cert,48400
+448,Business Intelligence Analyst,9.1,Masters,22,Entertainment,HCL Tech,"Toronto, Canada",Hybrid,AWS ML Specialty,123700
+449,Machine Learning Engineer,15.2,Masters,3,Education,OpenAI,Remote,Hybrid,Microsoft Certified: Azure Data Scientist,92700
+450,AI Product Manager,7.5,Bachelors,4,Retail,HCL Tech,"Pune, India",Hybrid,Deep Learning Specialization,31900
+451,Deep Learning Engineer,12.2,Masters,6,Manufacturing,Wipro,"New York, USA",Yes,Deep Learning Specialization,136800
+452,Computer Vision Engineer,0.9,Masters,6,Telecommunications,Cognizant,"Berlin, Germany",Hybrid,Microsoft Certified: Azure Data Scientist,66300
+453,MLOps Engineer,0.1,Bachelors,20,Manufacturing,Oracle,"New York, USA",Hybrid,Deep Learning Specialization,88600
+454,AI Consultant,11.6,Masters,6,Manufacturing,SAP,"London, UK",No,Google ML Engineer,128000
+455,Data Engineer,18.3,Masters,11,Manufacturing,Nvidia,"Delhi, India",No,IBM Data Science Cert,47300
+456,Data Engineer,14.0,Masters,12,Government,Nvidia,"Toronto, Canada",Hybrid,Microsoft Certified: Azure Data Scientist,134200
+457,Data Analyst,4.2,PhD,24,Education,Infosys,"Toronto, Canada",Hybrid,Microsoft Certified: Azure Data Scientist,116300
+458,AI Product Manager,13.9,PhD,25,Finance,OpenAI,"Seattle, USA",No,TensorFlow Developer,211500
+459,AI Consultant,8.3,Masters,12,Manufacturing,Google,"Seattle, USA",Yes,None,141700
+460,Research Intern,1.1,PhD,8,Automotive,Deloitte,"Pune, India",Yes,Azure AI Engineer,8400
+461,Applied Scientist,10.8,PhD,17,Finance,SAP,Remote,Hybrid,Deep Learning Specialization,105800
+462,AI Consultant,12.9,Bachelors,10,Government,Meta,"Toronto, Canada",Hybrid,None,127700
+463,Computer Vision Engineer,19.1,PhD,20,Healthcare,Google,"Toronto, Canada",No,None,181300
+464,Business Intelligence Analyst,17.4,Masters,23,Education,Oracle,"Seattle, USA",Hybrid,TensorFlow Developer,193200
+465,Data Analyst,5.9,Masters,24,Finance,TCS,"Pune, India",Hybrid,Google ML Engineer,36600
+466,Computer Vision Engineer,5.6,PhD,7,Retail,Oracle,Remote,No,None,77000
+467,AI Solutions Architect,3.1,Masters,13,Entertainment,Microsoft,Singapore,Hybrid,TensorFlow Developer,108800
+468,MLOps Engineer,15.8,Masters,14,Finance,Nvidia,"Seattle, USA",Yes,Microsoft Certified: Azure Data Scientist,170000
+469,Applied Scientist,10.1,Bachelors,20,Government,Startup Inc,"Hyderabad, India",No,None,36100
+470,NLP Engineer,6.6,PhD,9,Entertainment,Capgemini,"New York, USA",Hybrid,IBM Data Science Cert,135400
+471,Data Scientist,2.3,PhD,17,Technology,SAP,"Austin, USA",Hybrid,None,117400
+472,AI Solutions Architect,6.4,Bachelors,15,Automotive,Adobe,"Toronto, Canada",No,None,113500
+473,Applied Scientist,7.5,Masters,17,Telecommunications,Microsoft,"Delhi, India",Hybrid,None,37100
+474,Machine Learning Engineer,3.3,Masters,20,Healthcare,Amazon,"Mumbai, India",Hybrid,Azure AI Engineer,29900
+475,Research Intern,8.5,Bachelors,9,Government,DataWorks,"Berlin, Germany",Yes,Deep Learning Specialization,30400
+476,MLOps Engineer,14.3,Bachelors,5,Finance,Microsoft,"Pune, India",No,TensorFlow Developer,39000
+477,Data Analyst,18.2,Bachelors,15,Telecommunications,Startup Inc,"San Francisco, USA",No,None,172200
+478,AI Product Manager,0.1,Masters,5,Entertainment,Microsoft,"Toronto, Canada",Yes,AWS ML Specialty,78100
+479,Deep Learning Engineer,15.7,PhD,22,Finance,Meta,Singapore,No,AWS ML Specialty,168700
+480,Data Scientist,9.5,Masters,10,Retail,Startup Inc,Singapore,Hybrid,None,112300
+481,Deep Learning Engineer,13.5,PhD,3,Government,Adobe,"Pune, India",Yes,None,45100
+482,Computer Vision Engineer,10.7,Bachelors,12,Technology,OpenAI,"Mumbai, India",No,Microsoft Certified: Azure Data Scientist,38800
+483,AI Research Scientist,3.2,Masters,22,Automotive,Wipro,"Hyderabad, India",Yes,Azure AI Engineer,40200
+484,Data Scientist,17.0,Masters,17,Government,Amazon,"Delhi, India",Hybrid,None,47500
+485,AI Consultant,11.6,PhD,14,Retail,Accenture,"Hyderabad, India",No,TensorFlow Developer,53900
+486,NLP Engineer,9.7,PhD,22,Automotive,Oracle,"Pune, India",Hybrid,TensorFlow Developer,49200
+487,Computer Vision Engineer,3.4,PhD,10,Technology,DataWorks,"Delhi, India",No,None,34700
+488,AI Solutions Architect,9.6,Bachelors,14,Automotive,HCL Tech,"Seattle, USA",Yes,None,150200
+489,Business Intelligence Analyst,5.6,Masters,20,Technology,Deloitte,"Toronto, Canada",Hybrid,None,103100
+490,Data Scientist,17.0,Bachelors,21,Entertainment,Startup Inc,Singapore,Hybrid,None,142500
+491,Deep Learning Engineer,10.9,Masters,18,Retail,OpenAI,"San Francisco, USA",Yes,Microsoft Certified: Azure Data Scientist,151200
+492,Business Intelligence Analyst,5.8,Bachelors,19,Government,Amazon,"San Francisco, USA",No,Google ML Engineer,114400
+493,Business Intelligence Analyst,19.3,Masters,24,Retail,Capgemini,"Pune, India",No,None,57400
+494,Data Engineer,13.2,Masters,18,Education,Microsoft,"Mumbai, India",No,None,43800
+495,Data Analyst,0.9,Masters,19,Education,Startup Inc,"New York, USA",No,IBM Data Science Cert,97100
+496,Research Intern,6.5,Masters,23,Automotive,Deloitte,"London, UK",Hybrid,TensorFlow Developer,38900
+497,Computer Vision Engineer,7.3,Bachelors,19,Automotive,Startup Inc,"Austin, USA",Yes,Google ML Engineer,119600
+498,Business Intelligence Analyst,6.9,Bachelors,22,Healthcare,Capgemini,"Austin, USA",Yes,AWS ML Specialty,120800
+499,AI Product Manager,12.9,Masters,7,Retail,TCS,"Chennai, India",Hybrid,Deep Learning Specialization,42200
+500,Data Analyst,8.3,PhD,6,Telecommunications,HCL Tech,"New York, USA",Yes,TensorFlow Developer,137100
