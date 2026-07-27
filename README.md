@@ -53,6 +53,10 @@ This project explores a dataset of 500 AI/ML job records and builds regression m
 
 Model performance (MAE, RMSE, R²) is printed and plotted in Section 6 of the notebook, with Random Forest and Gradient Boosting generally outperforming the linear baseline on this dataset.
 
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
 ## Author
 
 Vismay Vinod
