@@ -1,0 +1,256 @@
+{
+ "env": {
+  "python": "3.11.2",
+  "pandas": "2.3.3",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.1",
+  "matplotlib": "3.11.2",
+  "seaborn": "0.13.2"
+ },
+ "cells": {
+  "2": {
+   "stdout": "Dataset ready \u2705\n",
+   "warnings": [],
+   "figs": []
+  },
+  "3": {
+   "stdout": "",
+   "warnings": [],
+   "value_type": "DataFrame",
+   "value_repr": "   ID  ... Salary (USD)\n0   1  ...        35800\n1   2  ...        34400\n2   3  ...       143200\n3   4  ...        24700\n4   5  ...       170200\n\n[5 rows x 11 columns]",
+   "figs": []
+  },
+  "5": {
+   "stdout": "Shape: (500, 11)\n<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 500 entries, 0 to 499\nData columns (total 11 columns):\n #   Column              Non-Null Count  Dtype  \n---  ------              --------------  -----  \n 0   ID                  500 non-null    int64  \n 1   Job Title           500 non-null    object \n 2   Experience (Years)  500 non-null    float64\n 3   Education           500 non-null    object \n 4   Skill Count         500 non-null    int64  \n 5   Industry            500 non-null    object \n 6   Company             500 non-null    object \n 7   Location            500 non-null    object \n 8   Remote Work         500 non-null    object \n 9   Certification       334 non-null    object \n 10  Salary (USD)        500 non-null    int64  \ndtypes: float64(1), int64(3), object(7)\nmemory usage: 43.1+ KB\n",
+   "warnings": [],
+   "figs": []
+  },
+  "6": {
+   "stdout": "",
+   "warnings": [],
+   "value_type": "DataFrame",
+   "value_repr": "                    count unique  ...       75%       max\nID                  500.0    NaN  ...    375.25     500.0\nJob Title             500     15  ...       NaN       NaN\nExperience (Years)  500.0    NaN  ...      14.6      20.0\nEducation             500      3  ...       NaN       NaN\nSkill Count         500.0    NaN  ...      20.0      25.0\nIndustry              500     10  ...       NaN       NaN\nCompany               500     20  ...       NaN       NaN\nLocation              500     15  ...       NaN       NaN\nRemote Work           500      3  ...       NaN       NaN\nCertification         334      7  ...       NaN       NaN\nSalary (USD)        500.0    NaN  ...  134250.0  216300.0\n\n[11 rows x 11 columns]",
+   "figs": []
+  },
+  "7": {
+   "stdout": "",
+   "warnings": [],
+   "value_type": "Series",
+   "value_repr": "ID                      0\nJob Title               0\nExperience (Years)      0\nEducation               0\nSkill Count             0\nIndustry                0\nCompany                 0\nLocation                0\nRemote Work             0\nCertification         166\nSalary (USD)            0\ndtype: int64",
+   "figs": []
+  },
+  "8": {
+   "stdout": "",
+   "warnings": [],
+   "figs": [
+    "fig_cell08_1.png"
+   ]
+  },
+  "9": {
+   "stdout": "",
+   "warnings": [],
+   "figs": [
+    "fig_cell09_1.png"
+   ]
+  },
+  "10": {
+   "stdout": "",
+   "warnings": [
+    "MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.",
+    "MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.",
+    "MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.",
+    "MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead."
+   ],
+   "figs": [
+    "fig_cell10_1.png"
+   ]
+  },
+  "11": {
+   "stdout": "",
+   "warnings": [],
+   "figs": [
+    "fig_cell11_1.png"
+   ]
+  },
+  "13": {
+   "stdout": "",
+   "warnings": [],
+   "value_type": "DataFrame",
+   "value_repr": "   Job Title  Experience (Years)  ...  Remote_No  Remote_Yes\n0         14                 2.2  ...      False        True\n1         12                11.8  ...      False       False\n2          0                13.0  ...       True       False\n3          4                 3.2  ...       True       False\n4         13                16.9  ...      False        True\n\n[5 rows x 12 columns]",
+   "figs": []
+  },
+  "supp13": {
+   "stdout": "Education mapping used: {'Bachelors': 0, 'Masters': 1, 'PhD': 2}\n",
+   "warnings": []
+  },
+  "14": {
+   "stdout": "Feature columns: ['Job Title', 'Experience (Years)', 'Education', 'Skill Count', 'Industry', 'Company', 'Location', 'Certification', 'Remote_Hybrid', 'Remote_No', 'Remote_Yes']\nX shape: (500, 11) | y shape: (500,)\n",
+   "warnings": [],
+   "figs": []
+  },
+  "16": {
+   "stdout": "Train size: 400  |  Test size: 100\n",
+   "warnings": [],
+   "figs": []
+  },
+  "supp16": {
+   "stdout": "Train share: 80%  |  Test share: 20%\n",
+   "warnings": []
+  },
+  "17": {
+   "stdout": "",
+   "warnings": [],
+   "figs": []
+  },
+  "supp17": {
+   "stdout": "Mean of scaled training features (rounded): [ 0.  0. -0.  0.  0. -0. -0.  0.  0.  0. -0.]\nStd  of scaled training features (rounded): [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]\n",
+   "warnings": []
+  },
+  "19": {
+   "stdout": "Linear Regression      | MAE:  36,748.75 | RMSE:  42,274.27 | R2: 0.2770\nDecision Tree          | MAE:  14,211.95 | RMSE:  20,621.29 | R2: 0.8280\nRandom Forest          | MAE:  13,886.34 | RMSE:  19,065.77 | R2: 0.8529\nGradient Boosting      | MAE:   9,090.10 | RMSE:  12,646.38 | R2: 0.9353\n",
+   "warnings": [],
+   "figs": []
+  },
+  "supp19": {
+   "stdout": "Decision Tree  -> max_depth param: 8 | fitted tree depth: 8 | leaves: 128\nRandom Forest  -> n_estimators: 300 | max_depth param: 12 | trees fitted: 300\nGradient Boost -> n_estimators: 300 | learning_rate: 0.05 | max_depth: 3 | stages fitted: 300\n",
+   "warnings": []
+  },
+  "21": {
+   "stdout": "",
+   "warnings": [],
+   "value_type": "DataFrame",
+   "value_repr": "                            MAE          RMSE        R2\nGradient Boosting   9090.101915  12646.380039  0.935301\nRandom Forest      13886.336010  19065.772355  0.852946\nDecision Tree      14211.954351  20621.293334  0.827972\nLinear Regression  36748.753686  42274.267533  0.277031",
+   "figs": []
+  },
+  "22": {
+   "stdout": "",
+   "warnings": [],
+   "figs": [
+    "fig_cell22_1.png"
+   ]
+  },
+  "24": {
+   "stdout": "Best model: Gradient Boosting\n",
+   "warnings": [],
+   "figs": [
+    "fig_cell24_1.png"
+   ]
+  },
+  "25": {
+   "stdout": "",
+   "warnings": [],
+   "figs": [
+    "fig_cell25_1.png"
+   ]
+  },
+  "27": {
+   "stdout": "",
+   "warnings": [
+    "FutureWarning: \n\nPassing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.\n"
+   ],
+   "value_type": "Series",
+   "value_repr": "Location              0.512401\nExperience (Years)    0.230411\nJob Title             0.117060\nSkill Count           0.044460\nCompany               0.033546\nIndustry              0.023223\nCertification         0.014803\nEducation             0.013605\nRemote_Yes            0.003725\nRemote_No             0.003621\nRemote_Hybrid         0.003146\ndtype: float64",
+   "figs": [
+    "fig_cell27_1.png"
+   ]
+  },
+  "29": {
+   "stdout": "Predicted Salary: $114,232.08\n",
+   "warnings": [],
+   "figs": []
+  },
+  "supp29": {
+   "stdout": "Encoded new profile row sent to rf.predict():\nJob Title             12\nExperience (Years)   5.0\nEducation              1\nSkill Count           12\nIndustry               8\nCompany                7\nLocation               0\nCertification          0\nRemote_Hybrid          0\nRemote_No              0\nRemote_Yes          True\n\nCompany 'Google' in training classes?         True\nLocation 'Bengaluru, India' in training classes? False\nFallback class used for unseen values (classes_[0]): Austin, USA\n",
+   "warnings": []
+  }
+ },
+ "facts": {
+  "salary_describe": {
+   "count": 500.0,
+   "mean": 89118.6,
+   "std": 52186.72,
+   "min": 8000.0,
+   "25%": 41475.0,
+   "50%": 85700.0,
+   "75%": 134250.0,
+   "max": 216300.0
+  },
+  "corr": {
+   "Experience (Years)": {
+    "Experience (Years)": 1.0,
+    "Skill Count": -0.0177,
+    "Salary (USD)": 0.3611
+   },
+   "Skill Count": {
+    "Experience (Years)": -0.0177,
+    "Skill Count": 1.0,
+    "Salary (USD)": 0.1285
+   },
+   "Salary (USD)": {
+    "Experience (Years)": 0.3611,
+    "Skill Count": 0.1285,
+    "Salary (USD)": 1.0
+   }
+  },
+  "results": {
+   "Gradient Boosting": {
+    "MAE": 9090.101915,
+    "RMSE": 12646.380039,
+    "R2": 0.935301
+   },
+   "Random Forest": {
+    "MAE": 13886.33601,
+    "RMSE": 19065.772355,
+    "R2": 0.852946
+   },
+   "Decision Tree": {
+    "MAE": 14211.954351,
+    "RMSE": 20621.293334,
+    "R2": 0.827972
+   },
+   "Linear Regression": {
+    "MAE": 36748.753686,
+    "RMSE": 42274.267533,
+    "R2": 0.277031
+   }
+  },
+  "best_model": "Gradient Boosting",
+  "importances": {
+   "Location": 0.512401,
+   "Experience (Years)": 0.230411,
+   "Job Title": 0.11706,
+   "Skill Count": 0.04446,
+   "Company": 0.033546,
+   "Industry": 0.023223,
+   "Certification": 0.014803,
+   "Education": 0.013605,
+   "Remote_Yes": 0.003725,
+   "Remote_No": 0.003621,
+   "Remote_Hybrid": 0.003146
+  },
+  "predicted_salary": 114232.08333333333,
+  "resid_mean": -1415.1103181185574,
+  "resid_std": 12566.956308773411,
+  "resid_min": -46403.48463126244,
+  "resid_max": 36280.76064203889,
+  "cert_none_raw": 166,
+  "n_unique": {
+   "ID": 500,
+   "Job Title": 15,
+   "Experience (Years)": 184,
+   "Education": 3,
+   "Skill Count": 23,
+   "Industry": 10,
+   "Company": 20,
+   "Location": 15,
+   "Remote Work": 3,
+   "Certification": 7,
+   "Salary (USD)": 429
+  },
+  "best_pred_min": -8843.015743962229,
+  "best_pred_neg": 1,
+  "abs_resid_gt_20k": 9,
+  "n_test": 100,
+  "y_test_mean": 90806.0
+ }
+}
