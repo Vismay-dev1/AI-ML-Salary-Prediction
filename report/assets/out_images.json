@@ -1,0 +1,33 @@
+{
+ "p1": "out_p1.png",
+ "p2": [
+  "out_p2_1.png",
+  "out_p2_2.png",
+  "out_p2_3.png"
+ ],
+ "p3": "out_p3.png",
+ "p4": "out_p4.png",
+ "p5_desc": [
+  "out_p5_desc_1.png",
+  "out_p5_desc_2.png",
+  "out_p5_desc_3.png"
+ ],
+ "p6": [
+  "out_p6_1.png",
+  "out_p6_2.png",
+  "out_p6_3.png"
+ ],
+ "p6_map": "out_p6_map.png",
+ "p7": "out_p7.png",
+ "p8": "out_p8.png",
+ "p9": "out_p9.png",
+ "p10": "out_p10.png",
+ "p11": "out_p11.png",
+ "p12": [
+  "out_p12_1.png"
+ ],
+ "p13": "out_p13.png",
+ "p15": "out_p15.png",
+ "p16": "out_p16.png",
+ "p16_supp": "out_p16_supp.png"
+}
