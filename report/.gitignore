@@ -1,2 +1,2 @@
-report/assets/*.pkl
+assets/*.pkl
 __pycache__/
