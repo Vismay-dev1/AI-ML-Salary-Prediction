@@ -1,0 +1,308 @@
+{
+  "rows": 500,
+  "cols": 11,
+  "salary_mean": 89118.6,
+  "salary_median": 85700.0,
+  "salary_min": 8000,
+  "salary_max": 216300,
+  "salary_std": 52186.7184368054,
+  "n_titles": 15,
+  "n_companies": 20,
+  "n_locations": 15,
+  "n_industries": 10,
+  "missing_cert": 166,
+  "duplicates": 0,
+  "corr_exp_salary": 0.3610518853254407,
+  "corr_skill_salary": 0.12853107889032633,
+  "corr_exp_skill": -0.017691287178938277,
+  "skew": 0.35551416984888423,
+  "interns_over_5y": 30,
+  "remote_location_rows": 32,
+  "exp_bands": {
+    "0-3 yrs": {
+      "mean": 65141.17647058824,
+      "count": 68
+    },
+    "3-6 yrs": {
+      "mean": 72816.04938271605,
+      "count": 81
+    },
+    "6-10 yrs": {
+      "mean": 79710.61946902655,
+      "count": 113
+    },
+    "10-15 yrs": {
+      "mean": 92296.72131147541,
+      "count": 122
+    },
+    "15-20 yrs": {
+      "mean": 120380.1724137931,
+      "count": 116
+    }
+  },
+  "features": [
+    "Job Title",
+    "Experience (Years)",
+    "Education",
+    "Skill Count",
+    "Industry",
+    "Company",
+    "Location",
+    "Certification",
+    "Remote_Hybrid",
+    "Remote_No",
+    "Remote_Yes"
+  ],
+  "train_size": 400,
+  "test_size": 100,
+  "results": {
+    "Linear Regression": {
+      "MAE": 36748.75368570815,
+      "RMSE": 42274.267533347775,
+      "R2": 0.2770311758511821
+    },
+    "Decision Tree": {
+      "MAE": 14211.95435062014,
+      "RMSE": 20621.293333701342,
+      "R2": 0.8279719814422176
+    },
+    "Random Forest": {
+      "MAE": 13886.336009702398,
+      "RMSE": 19065.77235497643,
+      "R2": 0.8529462196453448
+    },
+    "Gradient Boosting": {
+      "MAE": 9090.101915091658,
+      "RMSE": 12646.380038535352,
+      "R2": 0.9353006608864767
+    }
+  },
+  "baseline_mae": 44132.195,
+  "best_model": "Gradient Boosting",
+  "cv": {
+    "Linear Regression": {
+      "mean": 0.2743244056438005,
+      "std": 0.04659327901269923
+    },
+    "Decision Tree": {
+      "mean": 0.7728672467501999,
+      "std": 0.06639853181168302
+    },
+    "Random Forest": {
+      "mean": 0.8491688634390331,
+      "std": 0.011108695669074508
+    },
+    "Gradient Boosting": {
+      "mean": 0.9297460861223923,
+      "std": 0.009102775825128626
+    }
+  },
+  "resid_within_20k": 0.91,
+  "resid_mean": -1415.1103181185574,
+  "importance_rf": {
+    "Location": 0.5124007758533611,
+    "Experience (Years)": 0.23041121297261072,
+    "Job Title": 0.11705951840658708,
+    "Skill Count": 0.04446048929833838,
+    "Company": 0.033546014857181096,
+    "Industry": 0.02322255116686111,
+    "Certification": 0.014802966258233873,
+    "Education": 0.01360479221548339,
+    "Remote_Yes": 0.003725389789496806,
+    "Remote_No": 0.003620608572693195,
+    "Remote_Hybrid": 0.003145680609153193
+  },
+  "importance_gb": {
+    "Location": 0.6184389052024473,
+    "Experience (Years)": 0.19482176661777173,
+    "Job Title": 0.1210179204152635,
+    "Skill Count": 0.02983896343978674,
+    "Education": 0.017260871137284185,
+    "Company": 0.01266679971329235,
+    "Industry": 0.002252330221785367,
+    "Remote_Yes": 0.0012519885888517149,
+    "Remote_No": 0.001183900557102264,
+    "Certification": 0.0009304313474810027,
+    "Remote_Hybrid": 0.0003361227589339826
+  },
+  "example_profile": {
+    "Job Title": "Machine Learning Engineer",
+    "Experience (Years)": 5.0,
+    "Education": "Masters",
+    "Skill Count": 12,
+    "Industry": "Technology",
+    "Company": "Google",
+    "Location": "Bengaluru, India",
+    "Remote Work": "Yes",
+    "Certification": "AWS ML Specialty"
+  },
+  "example_pred_rf": 114232.08333333333,
+  "example_pred_gb": 105314.9769411098,
+  "example_profile_fixed": {
+    "Job Title": "Machine Learning Engineer",
+    "Experience (Years)": 5.0,
+    "Education": "Masters",
+    "Skill Count": 12,
+    "Industry": "Technology",
+    "Company": "Google",
+    "Location": "Bangalore, India",
+    "Remote Work": "Yes",
+    "Certification": "AWS ML Specialty"
+  },
+  "example_pred_rf_fixed": 41522.431414881416,
+  "example_pred_gb_fixed": 33857.41495695314,
+  "example_fallback_location": "Austin, USA",
+  "n_missing_by_col": {
+    "ID": 0,
+    "Job Title": 0,
+    "Experience (Years)": 0,
+    "Education": 0,
+    "Skill Count": 0,
+    "Industry": 0,
+    "Company": 0,
+    "Location": 0,
+    "Remote Work": 0,
+    "Certification": 166,
+    "Salary (USD)": 0,
+    "Region": 0,
+    "Experience band": 0
+  },
+  "edu_means": {
+    "Bachelors": 80975.84541062803,
+    "Masters": 92215.22842639594,
+    "PhD": 100321.875
+  },
+  "remote_means": {
+    "Hybrid": 87491.06145251397,
+    "No": 90888.95705521472,
+    "Yes": 89136.07594936709
+  },
+  "region_means": {
+    "Europe / Canada / Singapore": 114709.48905109489,
+    "India": 37771.64948453608,
+    "Remote": 87831.25,
+    "USA": 136538.68613138687
+  },
+  "region_counts": {
+    "India": 194,
+    "Europe / Canada / Singapore": 137,
+    "USA": 137,
+    "Remote": 32
+  },
+  "title_means": {
+    "AI Solutions Architect": 111305.88235294117,
+    "AI Consultant": 101671.79487179487,
+    "Business Intelligence Analyst": 99354.28571428571,
+    "Data Scientist": 98736.0,
+    "Machine Learning Engineer": 94536.66666666667,
+    "AI Product Manager": 94342.30769230769,
+    "Applied Scientist": 94312.19512195123,
+    "Data Engineer": 92615.15151515152,
+    "Deep Learning Engineer": 92014.63414634146,
+    "AI Research Scientist": 91603.125,
+    "Computer Vision Engineer": 89528.57142857143,
+    "Data Analyst": 87843.33333333333,
+    "MLOps Engineer": 86084.61538461539,
+    "NLP Engineer": 83057.69230769231,
+    "Research Intern": 31439.024390243903
+  },
+  "loc_means": {
+    "Austin, USA": 141168.9655172414,
+    "New York, USA": 140965.7894736842,
+    "San Francisco, USA": 136787.5,
+    "Seattle, USA": 128368.42105263157,
+    "London, UK": 124115.0,
+    "Singapore": 120080.76923076923,
+    "Toronto, Canada": 109994.5945945946,
+    "Berlin, Germany": 104667.64705882352,
+    "Remote": 87831.25,
+    "Delhi, India": 39239.393939393936,
+    "Hyderabad, India": 38535.294117647056,
+    "Pune, India": 38230.0,
+    "Chennai, India": 38120.833333333336,
+    "Bangalore, India": 37220.0,
+    "Mumbai, India": 35209.09090909091
+  },
+  "ind_means": {
+    "Healthcare": 101017.0731707317,
+    "Telecommunications": 98934.4827586207,
+    "Manufacturing": 96406.66666666667,
+    "Entertainment": 91626.0,
+    "Finance": 89178.43137254902,
+    "Automotive": 88321.73913043478,
+    "Education": 84163.63636363637,
+    "Government": 83833.33333333333,
+    "Technology": 79943.47826086957,
+    "Retail": 75497.91666666667
+  },
+  "cert_means": {
+    "IBM Data Science Cert": 98582.97872340426,
+    "Google ML Engineer": 97308.69565217392,
+    "AWS ML Specialty": 93489.36170212766,
+    "Microsoft Certified: Azure Data Scientist": 90928.30188679245,
+    "Deep Learning Specialization": 84314.63414634146,
+    "Azure AI Engineer": 83380.0,
+    "TensorFlow Developer": 76510.0
+  },
+  "edu_counts": {
+    "Bachelors": 207,
+    "Masters": 197,
+    "PhD": 96
+  },
+  "title_counts": {
+    "Research Intern": 41,
+    "Applied Scientist": 41,
+    "Deep Learning Engineer": 41,
+    "AI Consultant": 39,
+    "MLOps Engineer": 39,
+    "Business Intelligence Analyst": 35,
+    "AI Solutions Architect": 34,
+    "Data Engineer": 33,
+    "AI Research Scientist": 32,
+    "Machine Learning Engineer": 30,
+    "Data Analyst": 30,
+    "Computer Vision Engineer": 28,
+    "NLP Engineer": 26,
+    "AI Product Manager": 26,
+    "Data Scientist": 25
+  },
+  "ind_counts": {
+    "Manufacturing": 60,
+    "Telecommunications": 58,
+    "Education": 55,
+    "Finance": 51,
+    "Entertainment": 50,
+    "Retail": 48,
+    "Technology": 46,
+    "Automotive": 46,
+    "Government": 45,
+    "Healthcare": 41
+  },
+  "loc_counts": {
+    "London, UK": 40,
+    "Pune, India": 40,
+    "Seattle, USA": 38,
+    "New York, USA": 38,
+    "Toronto, Canada": 37,
+    "Berlin, Germany": 34,
+    "Hyderabad, India": 34,
+    "Mumbai, India": 33,
+    "Delhi, India": 33,
+    "San Francisco, USA": 32,
+    "Remote": 32,
+    "Bangalore, India": 30,
+    "Austin, USA": 29,
+    "Singapore": 26,
+    "Chennai, India": 24
+  },
+  "cert_counts": {
+    "NaN": 166,
+    "TensorFlow Developer": 60,
+    "Microsoft Certified: Azure Data Scientist": 53,
+    "IBM Data Science Cert": 47,
+    "AWS ML Specialty": 47,
+    "Google ML Engineer": 46,
+    "Deep Learning Specialization": 41,
+    "Azure AI Engineer": 40
+  }
+}
