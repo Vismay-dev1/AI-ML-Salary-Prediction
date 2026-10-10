@@ -53,6 +53,14 @@ This project explores a dataset of 500 AI/ML job records and builds regression m
 
 Model performance (MAE, RMSE, R²) is printed and plotted in Section 6 of the notebook, with Random Forest and Gradient Boosting generally outperforming the linear baseline on this dataset.
 
+## Presentation & Project Guide
+
+The `reports/` folder contains a beginner-friendly write-up of the project:
+
+- `AI_ML_Salary_Prediction_Presentation.pptx` — interactive slide deck (clickable agenda and navigation, native editable charts, click-to-reveal quiz).
+- `AI_ML_Salary_Prediction_Project_Guide.docx` — Word guide explaining the data, method, charts and results in plain language.
+- `build_charts.py`, `build_pptx.py`, `build_docx.py` — regenerate the charts, deck and guide (run `build_charts.py` first).
+
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
