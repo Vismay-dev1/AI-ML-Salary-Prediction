@@ -4,7 +4,7 @@ Predicting salaries for AI/ML job roles based on experience, education, skills, 
 
 ## Overview
 
-This project explores a dataset of 500 AI/ML job records and builds regression models to predict salary (USD) from job attributes. It covers the full workflow from exploratory data analysis to model comparison and prediction on new job profiles.
+This project explores 500 AI/ML job records and builds regression models to predict salary (USD) from job attributes. It covers the workflow from exploratory data analysis to model comparison and prediction on a new job profile.
 
 ## Dataset
 
@@ -29,14 +29,33 @@ This project explores a dataset of 500 AI/ML job records and builds regression m
 `AI_ML_Salary_Prediction.ipynb` — a Google Colab notebook that:
 
 1. Loads and explores the dataset (distributions, correlations, salary breakdowns by category)
-2. Preprocesses features (ordinal encoding for Education, one-hot encoding for Remote Work, label encoding for high-cardinality fields)
-3. Trains and compares four models: Linear Regression, Decision Tree, Random Forest, and Gradient Boosting
+2. Preprocesses features (ordinal encoding for Education, one-hot encoding for Remote Work, and label encoding for high-cardinality fields)
+3. Trains and compares Linear Regression, Decision Tree, Random Forest, and Gradient Boosting
 4. Evaluates each model with MAE, RMSE, and R²
 5. Visualizes predicted-vs-actual salary and residuals for the best-performing model
 6. Reports feature importance
 7. Includes a ready-to-edit cell for predicting salary on a custom job profile
 
-## Usage
+## Project record and outputs
+
+A reproducible generator creates a multi-page record covering the data, EDA, preprocessing, all four model results, diagnostics, feature importance, and the custom-profile example:
+
+- **[Open the 10-page project record](outputs/AI_ML_Salary_Prediction_Record.pdf)**
+- **[Browse the output files and individual figures](outputs/README.md)**
+- Model metrics: `outputs/results/model_metrics.csv`
+- Run summary: `outputs/results/run_summary.json`
+
+To regenerate the PDF and the 16 standalone, numbered figure PNGs:
+
+```bash
+python -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python scripts/generate_project_record.py
+```
+
+The generator reproduces the preprocessing and model settings in the notebook. In this run, Gradient Boosting had the highest held-out R² (0.9353; MAE $9,090.10; RMSE $12,646.38).
+
+## Running the notebook
 
 1. Open `AI_ML_Salary_Prediction.ipynb` in Google Colab.
 2. Run the first cell and upload `ai_ml_job_analysis.csv` when prompted.
@@ -47,11 +66,11 @@ This project explores a dataset of 500 AI/ML job records and builds regression m
 - Python 3
 - pandas, numpy, matplotlib, seaborn, scikit-learn
 
-(All pre-installed in Google Colab — no setup needed.)
+(All pre-installed in Google Colab. For local use, install from `requirements.txt`.)
 
-## Results
+## Data note
 
-Model performance (MAE, RMSE, R²) is printed and plotted in Section 6 of the notebook, with Random Forest and Gradient Boosting generally outperforming the linear baseline on this dataset.
+The dataset has 166 blank `Certification` cells. The current notebook's preprocessing converts these blanks to a string label before encoding; the report calls this out as a limitation. The example profile also uses the notebook's fallback for an unseen `Location`. Treat the model output as a project demonstration rather than a production salary guarantee.
 
 ## License
 
