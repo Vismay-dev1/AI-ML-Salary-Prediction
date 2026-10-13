@@ -1,0 +1,118 @@
+{
+  "generated_at_utc": "2026-10-13T10:07:22.844992+00:00",
+  "source_dataset": "ai_ml_job_analysis.csv",
+  "environment": {
+    "python": "3.11.2",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scikit_learn": "1.9.1"
+  },
+  "dataset": {
+    "rows": 500,
+    "columns": 11,
+    "missing_cells": 166,
+    "missing_by_column": {
+      "ID": 0,
+      "Job Title": 0,
+      "Experience (Years)": 0,
+      "Education": 0,
+      "Skill Count": 0,
+      "Industry": 0,
+      "Company": 0,
+      "Location": 0,
+      "Remote Work": 0,
+      "Certification": 166,
+      "Salary (USD)": 0
+    },
+    "salary_usd": {
+      "minimum": 8000.0,
+      "median": 85700.0,
+      "mean": 89118.6,
+      "maximum": 216300.0
+    }
+  },
+  "preprocessing": {
+    "dropped_columns": [
+      "ID"
+    ],
+    "education_ordinal_mapping": {
+      "Bachelors": 0,
+      "Masters": 1,
+      "PhD": 2
+    },
+    "remote_work_encoding": "one-hot",
+    "label_encoded_columns": [
+      "Job Title",
+      "Industry",
+      "Company",
+      "Location",
+      "Certification"
+    ],
+    "note": "Matches the notebook; missing Certification values are converted to the string 'nan'."
+  },
+  "split": {
+    "train_rows": 400,
+    "test_rows": 100,
+    "test_size": 0.2,
+    "random_state": 42,
+    "predictor_columns": 11
+  },
+  "models": [
+    {
+      "model": "Gradient Boosting",
+      "mae_usd": 9090.101915091658,
+      "rmse_usd": 12646.380038535352,
+      "r2": 0.9353006608864767
+    },
+    {
+      "model": "Random Forest",
+      "mae_usd": 13886.336009702401,
+      "rmse_usd": 19065.77235497643,
+      "r2": 0.8529462196453448
+    },
+    {
+      "model": "Decision Tree",
+      "mae_usd": 14211.95435062014,
+      "rmse_usd": 20621.293333701342,
+      "r2": 0.8279719814422176
+    },
+    {
+      "model": "Linear Regression",
+      "mae_usd": 36748.75368570815,
+      "rmse_usd": 42274.267533347775,
+      "r2": 0.2770311758511821
+    }
+  ],
+  "best_model_by_test_r2": "Gradient Boosting",
+  "custom_profile_prediction": {
+    "model": "Random Forest",
+    "salary_usd": 114232.08333333333,
+    "unknown_categories_using_fallback": [
+      "Location"
+    ]
+  },
+  "artifacts": {
+    "report_pdf": "outputs/AI_ML_Salary_Prediction_Record.pdf",
+    "model_metrics_csv": "outputs/results/model_metrics.csv",
+    "figures": [
+      "outputs/figures/01_dataset_preview.png",
+      "outputs/figures/02_missing_values.png",
+      "outputs/figures/03_salary_distribution.png",
+      "outputs/figures/04_numeric_correlation_heatmap.png",
+      "outputs/figures/05_experience_vs_salary.png",
+      "outputs/figures/06_salary_by_education.png",
+      "outputs/figures/07_salary_by_remote_work.png",
+      "outputs/figures/08_salary_by_job_title.png",
+      "outputs/figures/09_salary_by_industry.png",
+      "outputs/figures/10_preprocessing_summary.png",
+      "outputs/figures/11_model_metrics_table.png",
+      "outputs/figures/12_model_comparison.png",
+      "outputs/figures/13_actual_vs_predicted.png",
+      "outputs/figures/14_residual_distribution.png",
+      "outputs/figures/15_random_forest_feature_importance.png",
+      "outputs/figures/16_custom_profile_prediction.png"
+    ]
+  }
+}
